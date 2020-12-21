@@ -1,0 +1,420 @@
+* {
+  margin: 0;
+}
+body {
+  font-family: "Baloo Tamma 2", cursive;
+}
+/* about section CSS */
+.about {
+  background-color: #fff8e7;
+  width: auto;
+  height: 70vh;
+  padding: 20px 100px 100px 20px;
+}
+.about .img-about {
+  position: absolute;
+  left: 650px;
+  top: 100px;
+  bottom: 20px;
+}
+.about .img-about img {
+  width: 300px;
+  height: 400px;
+}
+.about .title-about {
+  background-color: #e09121;
+  width: 450px;
+  height: 60px;
+  position: absolute;
+  left: 300px;
+  top: 80px;
+  opacity: 70%;
+}
+.about .title-about h1 {
+  color: #ffffff;
+  text-align: center;
+  padding-top: 15px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+.about .title-about p {
+  color: #e09121;
+  text-align: justify;
+  width: 310px;
+  height: 300px;
+  overflow: hidden;
+  margin-top: 20px;
+  margin-left: 5px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  padding: 20px 15px 15px 20px;
+  font-weight: 600;
+  letter-spacing: 0.75px;
+  font-size: 17px;
+}
+.about .title-about p::first-letter {
+  font-size: 20px;
+}
+.about .fliptext-about {
+  position: absolute;
+  top: 155px;
+  left: 960px;
+}
+.about .fliptext-about p {
+  color: #e09121;
+  letter-spacing: 2px;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+/* end about section CSS */
+/***********************************************************************************************/
+/* services section CSS */
+.services {
+  background-color: #efb261;
+  width: auto;
+  height: 70vh;
+  padding: 20px 100px 100px 20px;
+  opacity: 80%;
+}
+.services .img-services {
+  position: absolute;
+  left: 700px;
+  top: 560px;
+  bottom: 20px;
+  width: 300px;
+  height: 400px;
+  background-color: #ffffff;
+  padding: 20px 20px 60px 20px;
+}
+.services .img-services img {
+  width: 300px;
+  height: 400px;
+}
+.services .img-services p {
+  text-align: center;
+  color: #e09121;
+  margin-top: 3px;
+}
+.services .steker-services {
+  background-color: #e09121;
+  width: 200px;
+  height: 60px;
+  position: absolute;
+  left: 770px;
+  top: 540px;
+  opacity: 90%;
+}
+.services .title-services {
+  text-align: right;
+  position: absolute;
+  right: 600px;
+  top: 600px;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.services .text-services {
+  position: absolute;
+  width: 200px;
+  height: 60px;
+  left: 200px;
+  top: 800px;
+  border-top: 7px solid #ffffff;
+}
+.services .text-services .pragraph-services {
+  width: 400px;
+  padding: 10px 10px 10px 10px;
+  margin-top: 10px;
+}
+.services .text-services .pragraph-services h5 {
+  color: #ffffff;
+  text-align: justify;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+.services .text-services .pragraph-services p {
+  color: #ffffff;
+  text-align: justify;
+  margin-top: 30px;
+  letter-spacing: 2px;
+}
+/*end services section CSS */
+/*************************************************************************************************/
+/* contact section CSS */
+.contact {
+  background-color: #fff8e7;
+  width: auto;
+  height: 75vh;
+  padding: 20px 100px 100px 20px;
+}
+.contact .contact-text {
+  position: absolute;
+  left: 650px;
+  top: 1150px;
+  bottom: 20px;
+  width: 400px;
+  height: 400px;
+  background-color: #ffffff;
+  padding: 20px 20px 60px 20px;
+  border: 2px solid #e09121;
+}
+.contact .contact-text h1 {
+  text-align: center;
+  margin-top: 10px;
+  color: rgb(107, 73, 8);
+}
+.contact .contact-text p {
+  text-align: center;
+  margin-top: 30px;
+  color: #e09121;
+}
+.contact .img-contact img {
+  width: 300px;
+  height: 400px;
+  position: absolute;
+  left: 400px;
+}
+.contact .img-contact p {
+  position: absolute;
+  top: 1510px;
+  left: 400px;
+  color: #e09121;
+}
+.contact .title-contact {
+  position: absolute;
+  left: 230px;
+}
+.contact .title-contact h1 {
+  letter-spacing: 1px;
+
+  text-transform: uppercase;
+  font-size: 80px;
+  text-align: right;
+  color: #e09121;
+}
+/*end contact section CSS */
+/**********************************************************************************************/
+/* footer CSS */
+footer {
+  background-color: #fff8e7;
+  text-align: right;
+  padding-bottom: 20px;
+  padding-right: 15px;
+  color: #e09121;
+}
+/* end footer CSS */
+/**************************************************************************************************/
+/* Start mobile phones: */
+@media only screen and (max-width: 600px) {
+  body {
+    font-family: "Baloo Tamma 2", cursive;
+  }
+  /* about section CSS */
+  .about {
+    background-color: #fff8e7;
+    height: 70vh;
+  }
+  .about .img-about {
+    position: absolute;
+    left: 60px;
+    top: 50px;
+    bottom: 20px;
+  }
+  .about .img-about img {
+    width: 300px;
+    height: 400px;
+    opacity: 40%;
+  }
+  .about .title-about {
+    width: 350px;
+    height: 60px;
+    position: absolute;
+    left: 35px;
+    top: 50px;
+    opacity: 70%;
+  }
+  .about .title-about h1 {
+    color: #ffffff;
+    text-align: center;
+    padding-top: 15px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+  }
+  .about .title-about p {
+    color: rgb(107, 73, 8);
+    text-align: justify;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    padding: 15px 15px;
+    border: 2px solid #e09121;
+    font-size: 13px;
+  }
+  .about .title-about p::first-letter {
+    font-size: 20px;
+  }
+  .about .fliptext-about {
+    position: absolute;
+    top: 130px;
+    left: 370px;
+  }
+  .about .fliptext-about p {
+    color: #e09121;
+    letter-spacing: 2px;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+  }
+  /* end about section CSS */
+  /***********************************************************************************************/
+  /* services section CSS */
+  .services {
+    background-color: #efb261;
+    height: 70vh;
+    padding: 20px 100px 100px 20px;
+    opacity: 80%;
+  }
+  .services .img-services {
+    position: absolute;
+    left: 190px;
+    top: 590px;
+    bottom: 20px;
+    width: 200px;
+    height: 350px;
+    background-color: #ffffff;
+    padding: 20px 20px 20px 20px;
+  }
+  .services .img-services img {
+    width: 200px;
+    height: 300px;
+    opacity: 70%;
+  }
+  .services .img-services p {
+    text-align: center;
+    color: #e09121;
+    margin-top: 4px;
+  }
+  .services .steker-services {
+    background-color: #e09121;
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    left: 100px;
+    top: 580px;
+    opacity: 90%;
+  }
+  .services .title-services {
+    text-align: right;
+    position: absolute;
+    left: 20px;
+    right: 300px;
+    top: 590px;
+    color: #ffffff;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+  }
+  .services .text-services {
+    position: absolute;
+    width: 100px;
+    height: 60px;
+    left: 30px;
+    top: 700px;
+    border-top: 7px solid rgb(107, 73, 8);
+    border-bottom: 7px solid rgb(107, 73, 8);
+    text-align: justify;
+  }
+  .services .text-services .pragraph-services {
+    width: 300px;
+  }
+  .services .text-services .pragraph-services h5 {
+    color: rgb(107, 73, 8);
+    text-align: justify;
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+  .services .text-services .pragraph-services p {
+    color: rgb(107, 73, 8);
+    text-align: justify;
+    margin-top: 30px;
+    letter-spacing: 2px;
+    font-weight: 900;
+  }
+  /*end services section CSS */
+  /*************************************************************************************************/
+  /* contact section CSS */
+  .contact {
+    background-color: #fff8e7;
+    height: 75vh;
+    padding: 20px 100px 100px 20px;
+  }
+  .contact .contact-text {
+    position: absolute;
+    left: 150px;
+    top: 1150px;
+    bottom: 20px;
+    width: 200px;
+    height: 300px;
+    background-color: #ffffff;
+
+    border: 2px solid #e09121;
+  }
+  .contact .contact-text h1 {
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(107, 73, 8);
+  }
+  .contact .contact-text p {
+    text-align: center;
+    margin-top: 10px;
+    color: #e09121;
+  }
+  .contact .img-contact img {
+    width: 100px;
+    height: 200px;
+    position: absolute;
+    left: 90px;
+    opacity: 70%;
+  }
+  .contact .img-contact p {
+    position: absolute;
+    top: 1540px;
+    left: 99px;
+    color: #e09121;
+  }
+  .contact .title-contact {
+    position: absolute;
+    left: 30px;
+  }
+  .contact .title-contact h1 {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: right;
+    color: #e09121;
+  }
+  /*end contact section CSS */
+}
+/* End mobile phones: */
+/*****************************************************/
+/* Start Small Device */
+@media only screen and (min-width: 600px) {
+}
+/* End Small Device */
+/**********************************************************/
+/* Start mudium device */
+@media only screen and (min-width: 768px) {
+}
+/* End mudium device*/
+/*****************************************************/
+/* Start large device */
+@media only screen and (min-width: 992px) {
+}
+/* end large device */
+/*******************************************************/
+/* start extra large device */
+@media only screen and (min-width: 1200px) {
+}
+/* end extra large device */
